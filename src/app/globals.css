@@ -283,3 +283,67 @@
 .get {
   margin-right: 2rem;
 }
+.servicesInfoData {
+  position: absolute;
+  color: white;
+  max-width: 20rem;
+  top: 58rem;
+  left: 10rem;
+}
+.servicesInfoPara {
+  color: #fff;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 19rem;
+  margin-top: 1.5rem;
+  margin-left: -1rem;
+}
+.servicesExplore {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: #eb6c1b;
+}
+.servicesInfoData1 {
+  color: #fff;
+  font-family: LEMON MILK;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 100%;
+  position: relative;
+}
+.aboutContainer {
+  height: 100vh;
+  display: flex;
+}
+.aboutHeader {
+  color: #f87d2e;
+  font-family: LEMON MILK;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.aboutFirstSplug {
+  margin-top: 5rem;
+}
+.aboutSecondSplug {
+  position: absolute;
+  right: 0;
+  top: 88rem;
+}
+.aboutRocket {
+  position: absolute;
+  right: 6rem;
+  top: 99rem;
+  width: 338px;
+  height: 518px;
+}

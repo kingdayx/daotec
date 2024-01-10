@@ -1,3 +1,5 @@
+import AppDesign from "@/components/About/AppDesgin/page";
+import Blockchain from "@/components/About/Blockchain/page";
 import About from "@/components/About/page";
 import Contact from "@/components/Contact/page";
 import Header from "@/components/Header/page";
@@ -10,6 +12,8 @@ export default function Home() {
       <Header />
       <Services />
       <About />
+      <Blockchain />
+      <AppDesign />
       <Contact />
       <Testimonials />
     </main>

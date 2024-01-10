@@ -8,6 +8,16 @@ export default function Services() {
     <div className="servicesContainer">
       <div className="servicesInfo">
         <Image src={services} className="services" alt="services" />
+        <div className="servicesInfoData">
+          <h1 className="servicesInfoData1"> OUR SERVICES </h1>
+          <p className="servicesInfoPara">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod
+          </p>
+          <div className="servicesExplore">
+            <h1> Explore all our services </h1>
+          </div>
+        </div>
       </div>
       <div className="servicesInfo1">
         <div className="services1">
