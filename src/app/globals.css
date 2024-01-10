@@ -174,3 +174,112 @@
   font-weight: 700;
   line-height: normal;
 }
+
+.servicesContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.servicesInfo {
+  display: flex;
+}
+
+.servicesInfo1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 408px;
+  padding: 1rem;
+}
+
+.services1 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  max-width: 90rem;
+  border-radius: 40px;
+  background-image: linear-gradient(143deg, #ec8b4d -96.59%, #ee5d00 91.56%);
+}
+.services2 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 40px;
+  background-image: linear-gradient(331deg, #5f2a68 1.3%, #aa78c9 219.67%);
+}
+
+.services3 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 40px;
+  background-image: linear-gradient(145deg, #3e7858 0.78%, #1f3c2c 125.6%);
+}
+.services4 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 0;
+  border-radius: 40px;
+  background-image: linear-gradient(143deg, #ec8b4d -96.59%, #ee5d00 91.56%);
+}
+.servicesData {
+  max-width: 19rem;
+  margin-left: 1.5rem;
+}
+.getService {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+.getServiceText {
+  position: absolute;
+  right: 11.6rem;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.servicesHeader1 {
+  color: #fff;
+  font-family: LEMON MILK;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.servicesPara {
+  color: #fff;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cgi {
+  margin-top: 0.5rem;
+}
+.servicesSVG {
+  padding-left: 2rem;
+}
+.get {
+  margin-right: 2rem;
+}
