@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import * as services from "../../../public/assets/services.png";
-import * as CGI from "../../../public/assets/cgi.svg";
+import * as CGI from "../../../public/assets/CGI.svg";
 
 export default function Services() {
   return (
