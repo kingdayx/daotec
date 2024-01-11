@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <div className="header ">
       {isMobile ? (
-        <div>
+        <div className="header">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="428"
