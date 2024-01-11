@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.header {
+/* .header {
   height: 100vh;
-}
+} */
 
 .HeaderBG {
   height: fill !important;
@@ -174,13 +174,57 @@
   font-weight: 700;
   line-height: normal;
 }
-
+.headerMobile {
+  display: none;
+}
+.headerDesktop {
+  height: 100vh;
+}
 @media (max-width: 900px) {
-  .header {
+  .headerMobile {
+    display: block;
+    height: 90vh;
+  }
+  .headerDesktop {
     display: none;
   }
-  .headerMobile {
-    height: 50vh;
+  .mobileBG {
+    position: absolute;
+    top: 0;
+    max-height: 750px;
+    max-width: 100%;
+    z-index: 10;
+  }
+  .mobileBG2 {
+    position: absolute;
+    bottom: 0;
+    max-height: 33rem;
+    z-index: 20;
+  }
+  .purpleArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    left: 18rem;
+    z-index: 30;
+  }
+  .rocketGirlmobile {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 7rem;
+    left: 10rem;
+    max-width: 25rem;
+    max-height: 25rem;
+    z-index: 30;
+  }
+  .firstStarmobile {
+    position: absolute;
+    top: 6rem;
+    z-index: 30;
   }
   .firstSplug {
     width: 110px;
