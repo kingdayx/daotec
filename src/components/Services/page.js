@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import * as services from "../../../public/assets/services.png";
 import * as CGI from "../../../public/assets/CGI.svg";
 import { isMobile } from "react-device-detect";
