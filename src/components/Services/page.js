@@ -1,18 +1,32 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import * as services from "../../../public/assets/services.png";
 import * as CGI from "../../../public/assets/CGI.svg";
 import { isMobile } from "react-device-detect";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const ServicesMobile = dynamic(() => import("./mobile"), { ssr: false });
+// Import Swiper styles
+import "swiper/css";
 
 export default function Services() {
   return (
     <div className="servicesContainer">
       {isMobile ? (
         <div>
-          <ServicesMobile />
+          <Swiper
+            spaceBetween={30}
+            slidesPerView={3}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide style={{ color: "black" }}>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            ...
+          </Swiper>
         </div>
       ) : (
         <div>
