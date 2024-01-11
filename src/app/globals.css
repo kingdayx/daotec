@@ -176,6 +176,12 @@
 }
 
 @media (max-width: 900px) {
+  .header {
+    display: none;
+  }
+  .headerMobile {
+    height: 50vh;
+  }
   .firstSplug {
     width: 110px;
   }

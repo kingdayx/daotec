@@ -14,13 +14,14 @@ export default function Header() {
   return (
     <div className="header ">
       {isMobile ? (
-        <div className="header">
+        <div className="headerMobile">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="428"
             height="924"
             viewBox="0 0 428 924"
             fill="none"
+            className="mobileBG"
           >
             <path
               d="M428 924H240V905C239.992 898.107 237.249 891.499 232.375 886.625C227.501 881.75 220.893 879.008 214 879C207.107 879.008 200.499 881.75 195.625 886.624C190.751 891.498 188.008 898.107 188 905V924H0V0H428V924Z"
