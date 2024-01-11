@@ -175,6 +175,40 @@
   line-height: normal;
 }
 
+@media (max-width: 765px) {
+  .firstSplug {
+    width: 110px;
+  }
+  .secondSplug {
+    position: absolute;
+    z-index: 1;
+    top: 4.5rem;
+    right: 0;
+    width: 430px;
+    max-height: 650px;
+  }
+  .rocketGirl {
+    right: 0;
+    top: 16rem;
+    width: 370px;
+  }
+  .headerText {
+    z-index: 10;
+  }
+  .headerText3 {
+    z-index: 20;
+  }
+  .headerText4 {
+    z-index: 20;
+  }
+  .headerTextContainer {
+    z-index: 20;
+  }
+  .headerContainer {
+    max-width: 30rem;
+  }
+}
+
 .servicesContainer {
   height: 100vh;
   display: flex;
