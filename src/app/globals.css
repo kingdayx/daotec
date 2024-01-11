@@ -180,7 +180,7 @@
 .headerDesktop {
   height: 100vh;
 }
-@media (max-width: 900px) {
+@media (max-width: 765px) {
   .headerMobile {
     display: block;
     height: 90vh;
@@ -203,12 +203,10 @@
   }
   .purpleArrow {
     display: flex;
-    align-items: center;
     justify-content: center;
-    align-self: center;
     position: absolute;
     bottom: 0;
-    left: 18rem;
+    left: 11.1rem;
     z-index: 30;
   }
   .rocketGirlmobile {
@@ -216,7 +214,6 @@
     justify-content: center;
     position: absolute;
     bottom: 7rem;
-    left: 10rem;
     max-width: 25rem;
     max-height: 25rem;
     z-index: 30;
