@@ -76,17 +76,19 @@ export default function Services() {
           >
             {slides.map((item, itemIndex) => {
               return (
-                <ServicesMobile
-                  key={itemIndex}
-                  title={item.title}
-                  img={item.img}
-                  description={item.description}
-                  description1={item.description1}
-                  description2={item.description2}
-                  description3={item.description3}
-                  skills={item.skills}
-                  styles={item.styles}
-                />
+                <SwiperSlide key={item} virtualIndex={itemIndex}>
+                  <ServicesMobile
+                    key={itemIndex}
+                    title={item.title}
+                    img={item.img}
+                    description={item.description}
+                    description1={item.description1}
+                    description2={item.description2}
+                    description3={item.description3}
+                    skills={item.skills}
+                    styles={item.styles}
+                  />
+                </SwiperSlide>
               );
             })}
           </Swiper>
