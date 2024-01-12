@@ -4,32 +4,41 @@ import Image from "next/image";
 import * as services from "../../../public/assets/services.png";
 import * as CGI from "../../../public/assets/CGI.svg";
 import { isMobile } from "react-device-detect";
-// Import Swiper React components
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default function Services() {
   return (
-    <div className="servicesContainer">
+    <div>
       {isMobile ? (
-        <div>
+        <div className="servicesMobileContainer">
           <Swiper
-            spaceBetween={30}
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
             slidesPerView={3}
-            onSlideChange={() => console.log("slide change")}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
           >
-            <SwiperSlide style={{ color: "black" }}>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 1</SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
-            ...
+            hey
           </Swiper>
         </div>
       ) : (
-        <div>
+        <div className="servicesContainerDesktop">
           <div className="servicesInfo">
             <Image src={services} className="services" alt="services" />
             <div className="servicesInfoData">

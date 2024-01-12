@@ -327,6 +327,12 @@
   .headerExplore {
     color: #fff;
   }
+  .servicesContainerDesktop {
+    display: none;
+  }
+  .aboutContainer {
+    display: none !important;
+  }
 }
 
 .servicesContainer {
