@@ -211,10 +211,10 @@
   }
   .rocketGirlmobile {
     position: absolute;
-    left: 0.9rem;
-    bottom: 7rem;
-    max-width: 23rem;
-    max-height: 23rem;
+    left: 3rem;
+    bottom: 10rem;
+    max-width: 20rem;
+    max-height: 20rem;
     z-index: 30;
   }
   .firstStarmobile {
@@ -230,7 +230,7 @@
   }
   .thirdStarmobile {
     position: absolute;
-    bottom: 8rem;
+    bottom: 10.5rem;
     left: 2rem;
     z-index: 30;
   }
@@ -309,7 +309,7 @@
     position: absolute;
     left: 3rem;
     max-width: 20rem;
-    bottom: 1.3rem !important;
+    bottom: 4rem !important;
     z-index: 30;
   }
   .headerContainer {
