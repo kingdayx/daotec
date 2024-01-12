@@ -309,7 +309,7 @@
     position: absolute;
     left: 3rem;
     max-width: 20rem;
-    bottom: 3.5rem !important;
+    bottom: 4rem !important;
     z-index: 30;
   }
   .headerContainer {
