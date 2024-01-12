@@ -14,7 +14,7 @@ import * as fifthStar from "../../../public/assets/fifthStar.svg";
 
 export default function Header() {
   return (
-    <div className="header ">
+    <div className="header">
       <div className="headerMobile">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -167,10 +167,11 @@ export default function Header() {
         <div className="headerTextContainer">
           <p className="headerText4">
             A professional team at your service to make your ideas come true!
-          </p>
-          <p className="headerText5">
             What are you waiting for to explore and join our world!
           </p>
+          {/* <p className="headerText5">
+            What are you waiting for to explore and join our world!
+          </p> */}
         </div>
         <div className="headerExploreContainer">
           <h3 className="headerExplore"> Explore </h3>
