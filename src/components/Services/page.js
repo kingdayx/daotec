@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import * as services from "../../../public/assets/services.png";
+import * as appDevmobile from "../../../public/assets/appDevmobile.svg";
 import * as CGI from "../../../public/assets/CGI.svg";
 import { isMobile } from "react-device-detect";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -13,8 +14,51 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import ServicesMobile from "./mobile";
 
 export default function Services() {
+  const slides = [
+    {
+      title: "APP DEV",
+      img: appDevmobile,
+      description: "Lorem ipsum dolor sit amet,",
+      description1: "consetetur sadipscing elitr, sed",
+      description2: "diam nonumy eirmod",
+      description3: "tempor invidunt.",
+      skills: ["C#", "C++", "ANDROID STUDIO"],
+      styles: "appDevMobile",
+    },
+    {
+      title: "APP DEV",
+      img: appDevmobile,
+      description: "Lorem ipsum dolor sit amet,",
+      description1: "consetetur sadipscing elitr, sed",
+      description2: "diam nonumy eirmod",
+      description3: "tempor invidunt.",
+      skills: ["C#", "C++", "ANDROID STUDIO"],
+      styles: "appDevMobile",
+    },
+    {
+      title: "APP DEV",
+      img: appDevmobile,
+      description: "Lorem ipsum dolor sit amet,",
+      description1: "consetetur sadipscing elitr, sed",
+      description2: "diam nonumy eirmod",
+      description3: "tempor invidunt.",
+      skills: ["C#", "C++", "ANDROID STUDIO"],
+      styles: "appDevMobile",
+    },
+    {
+      title: "APP DEV",
+      img: appDevmobile,
+      description: "Lorem ipsum dolor sit amet,",
+      description1: "consetetur sadipscing elitr, sed",
+      description2: "diam nonumy eirmod",
+      description3: "tempor invidunt.",
+      skills: ["C#", "C++", "ANDROID STUDIO"],
+      styles: "appDevMobile",
+    },
+  ];
   return (
     <div>
       {isMobile ? (
@@ -30,11 +74,21 @@ export default function Services() {
             onSlideChange={() => console.log("slide change")}
             className="swiper"
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            hey
+            {slides.map((item, itemIndex) => {
+              return (
+                <ServicesMobile
+                  key={itemIndex}
+                  title={item.title}
+                  img={item.img}
+                  description={item.description}
+                  description1={item.description1}
+                  description2={item.description2}
+                  description3={item.description3}
+                  skills={item.skills}
+                  styles={item.styles}
+                />
+              );
+            })}
           </Swiper>
         </div>
       ) : (

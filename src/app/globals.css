@@ -514,3 +514,27 @@
   width: 338px;
   height: 518px;
 }
+.appDevMobile {
+  width: 250px;
+  height: 409px;
+  flex-shrink: 0;
+  fill: linear-gradient(143deg, #ec8b4d -96.59%, #ee5d00 91.56%);
+}
+.appDevMobile1 {
+  width: 250px;
+  height: 409px;
+  flex-shrink: 0;
+  fill: linear-gradient(145deg, #3e7858 0.78%, #1f3c2c 125.6%);
+}
+.appDevMobile2 {
+  width: 250px;
+  height: 409px;
+  flex-shrink: 0;
+  fill: linear-gradient(143deg, #ec8b4d -96.59%, #ee5d00 91.56%);
+}
+.appDevMobile3 {
+  width: 250px;
+  height: 409px;
+  flex-shrink: 0;
+  fill: linear-gradient(143deg, #ec8b4d -96.59%, #ee5d00 91.56%);
+}
