@@ -92,6 +92,7 @@ export default function Services() {
               );
             })}
           </Swiper>
+          <p className="swipe"> Swipe for more ! </p>
         </div>
       ) : (
         <div className="servicesContainerDesktop">
