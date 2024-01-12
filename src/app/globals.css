@@ -327,6 +327,9 @@
   .headerExplore {
     color: #fff;
   }
+  .servicesMobileContainer {
+    height: 100vh;
+  }
   .servicesContainerDesktop {
     display: none;
   }
