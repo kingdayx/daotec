@@ -329,6 +329,10 @@
   }
   .servicesMobileContainer {
     height: 100vh;
+    margin-top: 4rem;
+  }
+  .swiper {
+    height: 100%;
   }
   .servicesContainerDesktop {
     display: none;
