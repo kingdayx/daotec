@@ -315,6 +315,18 @@
   .headerContainer {
     max-width: 30rem;
   }
+  .headerExploreContainer {
+    left: 9.3rem;
+    bottom: 2.6rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    z-index: 30;
+    background-color: #ee650d;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
+  }
+  .headerExplore {
+    color: #fff;
+  }
 }
 
 .servicesContainer {
