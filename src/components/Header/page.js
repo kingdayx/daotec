@@ -7,6 +7,8 @@ import * as headerArrow from "../../../public/assets/headerArrow.svg";
 import * as firstStar from "../../../public/assets/firstStar.svg";
 import * as secondStar from "../../../public/assets/secondStar.svg";
 import * as thirdStar from "../../../public/assets/thirdStar.svg";
+import * as thirdStarmobile from "../../../public/assets/thirdStarmobile.svg";
+import * as fourthStarmobile from "../../../public/assets/fourthStarmobile.svg";
 import * as fourthStar from "../../../public/assets/fourthStar.svg";
 import * as fifthStar from "../../../public/assets/fifthStar.svg";
 
@@ -115,13 +117,13 @@ export default function Header() {
             fill="#E3FDE6"
           />
         </svg>
-        <Image src={secondStar} className="secondStar" height={60} width={40} />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="27"
           height="27"
           viewBox="0 0 27 27"
           fill="none"
+          className="secondStarmobile"
         >
           <path
             d="M10.3046 2.65649C10.3134 2.1624 10.5047 1.68903 10.8418 1.32766C11.1788 0.966284 11.6377 0.74249 12.13 0.699421C12.6223 0.656351 13.1131 0.797057 13.5078 1.09441C13.9025 1.39177 14.1731 1.82471 14.2675 2.30978L15.5884 9.11254C15.6758 9.56234 15.9151 9.96848 16.2661 10.263C16.6171 10.5576 17.0586 10.7226 17.5168 10.7306L24.4456 10.8502C24.9397 10.8589 25.413 11.0503 25.7744 11.3873C26.1358 11.7244 26.3596 12.1833 26.4026 12.6756C26.4457 13.1679 26.305 13.6587 26.0076 14.0534C25.7103 14.448 25.2773 14.7187 24.7923 14.8131L17.9895 16.134C17.5397 16.2214 17.1336 16.4607 16.839 16.8117C16.5445 17.1627 16.3794 17.6042 16.3714 18.0624L16.2519 24.9911C16.2431 25.4852 16.0518 25.9586 15.7147 26.32C15.3777 26.6813 14.9188 26.9051 14.4265 26.9482C13.9342 26.9913 13.4434 26.8506 13.0487 26.5532C12.654 26.2559 12.3834 25.8229 12.289 25.3378L10.9681 18.5351C10.8806 18.0853 10.6414 17.6791 10.2904 17.3846C9.93937 17.0901 9.49785 16.925 9.0397 16.917L2.11092 16.7974C1.61683 16.7887 1.14346 16.5974 0.782089 16.2603C0.420715 15.9232 0.19692 15.4643 0.153851 14.972C0.110782 14.4798 0.251487 13.989 0.548842 13.5943C0.846197 13.1996 1.27914 12.929 1.76421 12.8346L8.56697 11.5136C9.01677 11.4262 9.42292 11.187 9.71745 10.836C10.012 10.4849 10.1771 10.0434 10.1851 9.58527L10.3046 2.65649Z"
@@ -129,17 +131,34 @@ export default function Header() {
           />
         </svg>
         <Image
-          src={fourthStar}
+          src={thirdStarmobile}
+          className="thirdStarmobile"
+          alt="thirdStarmobile"
+          height={55}
+          width={55}
+        />
+        <Image
+          src={fourthStarmobile}
           className="fourthStarmobile"
           height={45}
           width={45}
         />
-        <Image
-          src={fifthStar}
-          className="fifthStarmobile"
-          height={75}
-          width={75}
-        />
+        <div className="headerText">
+          <h1 className="headerText1"> TRANSFORMING </h1>
+          <h1 className="headerText2"> IDEAS INTO </h1>
+          <h1 className="headerText3"> PRODUCTS </h1>
+        </div>
+        <div className="headerTextContainer">
+          <p className="headerText4">
+            A proffesional team at your service to make your ideas come true!
+          </p>
+          <p className="headerText5">
+            What are you waiting for to explore and join our world!
+          </p>
+        </div>
+        <div className="headerExploreContainer">
+          <h3 className="headerExplore"> Explore </h3>
+        </div>
       </div>
 
       <div className="headerDesktop">
