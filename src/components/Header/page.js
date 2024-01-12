@@ -166,7 +166,7 @@ export default function Header() {
         </nav>
         <div className="headerTextContainer">
           <p className="headerText4">
-            A proffesional team at your service to make your ideas come true!
+            A professional team at your service to make your ideas come true!
           </p>
           <p className="headerText5">
             What are you waiting for to explore and join our world!
@@ -309,7 +309,7 @@ export default function Header() {
         </div>
         <div className="headerTextContainer">
           <p className="headerText4">
-            A proffesional team at your service to make your ideas come true!
+            A professional team at your service to make your ideas come true!
           </p>
           <p className="headerText5">
             What are you waiting for to explore and join our world!
