@@ -362,7 +362,13 @@
   justify-content: center;
   margin-top: 4rem;
 }
-
+.servicesContainerDesktop {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
 .servicesInfo {
   display: flex;
 }
